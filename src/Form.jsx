@@ -29,7 +29,7 @@ const Form = () => {
                 className="w-full p-3 border-2 border-purple-600 bg-purple-200"
                 type="text"
                 placeholder="Enter name"
-                
+                required
               />
             </div>
             <div>
@@ -39,7 +39,7 @@ const Form = () => {
                 className="w-full p-3 border-2 border-purple-600 bg-purple-200"
                 type="email"
                 placeholder="Enter email"
-                
+                required
               />
             </div>
             <div>
@@ -49,7 +49,7 @@ const Form = () => {
                 className="w-full p-3 border-2 border-purple-600 bg-purple-200"
                 type="password"
                 placeholder="Enter password"
-                
+                required
               />
             </div>
             <div className="flex justify-between items-center">
