@@ -1,11 +1,12 @@
+import Form from "./Form"
 
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-7xl font-bold">Vite + React</h1>
-    </>
+    <div className="bg-gray-100 h-screen w-full">
+      <Form></Form>
+    </div>
   )
 }
 
